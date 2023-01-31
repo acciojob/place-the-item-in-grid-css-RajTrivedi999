@@ -1,15 +1,14 @@
 
 /* Your CSS Code here. */
-.grids{
-	display:grid;
-	background: black;
-	border: 2px solid black;
-	height:200px;
-	width: 200px;
-	grid-template-columns: repeat(2,1fr);
-	grid-template-rows: repeat(2,1fr);
-	gap:2px;
-}
 .holder{
-	background:white;
+	display:grid;
+	grid-template-columns: repeat(2,200px);
+	grid-template-rows: repeat(2,200px);
+	gap:3px;
+}
+.box{
+	background:red;
+	display:flex;
+	justify-content:center;
+	align-items:center
 }
